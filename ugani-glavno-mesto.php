@@ -48,11 +48,6 @@
         $izbranaDrzava = rand(0, $stDrzav-1);
      }
 
-
-
-
-
-
     if (isset($_POST["poslanOdgovor"])) {
       //primerjaj odgovor če je forma oddana
         $poslanOdgovor = $_POST["poslanOdgovor"];
@@ -65,13 +60,8 @@
           echo "odgovor ni pravilen";
         }
     }
-
     ?>
 
-
-
-
-        
         <form action="ugani-glavno-mesto.php" method="post">
             <!-- tukaj vpiši hidden input -->
             <!-- Hidden input v katerega shranjujemo trenutno število -->
